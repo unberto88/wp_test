@@ -1,0 +1,76 @@
+body {
+    background: #FFF;
+}
+.post-inner h1 {
+    font-size: 5rem;
+}
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.event-list > article {
+    flex: 0 0 45%;
+    padding: 10px 20px;
+    background-color: #eee;
+}
+.event-list .post-title h5 {
+    margin: 0;
+}
+.post-title {
+    margin-bottom: 20px;
+}
+.post-content,
+.post-content p {
+    line-height: 1.3em;
+}
+.event-date {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.event-date span {
+    font-size: 0.8em;
+    line-height: 1em;
+    background-color: #fefefe;
+    padding: 4px 8px;
+}
+.event-page-link {
+    padding: 20px 10px;
+    text-align: center;
+}
+#events-list-page .post-inner {
+    padding-top: 0;
+    margin-bottom: 40px;
+}
+#events-list-page .post-inner h5 {
+    margin: 0 0 15px 0;
+}
+.event-pagination {
+    display: flex;
+    gap: 10px;
+}
+.event-pagination > a,
+.event-pagination > span {
+    border: 1px solid #cd2653;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    padding: 5px 8px;
+    text-decoration: none;
+    min-width: 40px;
+    text-align: center;
+}
+.event-pagination .current-page {
+    background-color: #cd2653;
+    color: #FFF;
+}
+
+.related-events.owl-carousel .owl-nav button.owl-next,
+.related-events.owl-carousel .owl-nav button.owl-prev {
+    text-decoration: none;
+}
+.related-events.owl-carousel .owl-nav button > span {
+    font-size: 80px;
+    line-height: 40px;
+    color: #cd2653;
+}
